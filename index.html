@@ -10,14 +10,32 @@
 <body>
   <div class="container">
     <h1>Grocery List Generator</h1>
+    <br>
+    <h3>Enter the items you would like to add to your list:</h3>
+    <br>
     <form id="list">
       <div class="form-group">
-        <label for="groceries">Enter your grocery list below:</label>
-        <input id="userInput" type="text">
+        <label for="item1">Item-1</label>
+        <input id="item1" type="text">
       </div>
-      <button type="submit" id="add">Add To List</button>
-      <button type="submit" id="finalSubmit">Submit List</button>
+      <div class="form-group">
+        <label for="item2">Item-2</label>
+        <input id="item2" type="text">
+      </div>
+      <div class="form-group">
+        <label for="item3">Item-3</label>
+        <input id="item3" type="text">
+      </div>
+      <div class="form-group">
+        <label for="item4">Item-4</label>
+        <input id="item4" type="text">
+      </div>
+      <br>
+      <button type="submit">Submit List</button>
     </form>
+    <div>
+      <ul id="output"></ul>
+    </div>
   </div>
 </body>
 </html>
