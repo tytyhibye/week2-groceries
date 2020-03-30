@@ -10,6 +10,3 @@ $(document).ready(function(){
     });
   });
 });
-// flavors.forEach(function(flavor){
-//   $("ul#output").append('<li></li>', flavor);
-// });
