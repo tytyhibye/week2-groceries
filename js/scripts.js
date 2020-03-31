@@ -3,9 +3,9 @@ $(document).ready(function(){
     event.preventDefault();
     $("form#list").hide();
     var theirList = ["item1", "item2", "item3", "item4"];
-    console.log(theirList);
     theirList.forEach(function(item) {
       var userInput = $("input#" + item).val();
+      // console.log(userInput);
       $("ul#output").append('<li>' + userInput + '</li>');
     });
   });
